@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif; /* Familia de fuente Lato */
+}
+header{
+   
+    background-color: #8bc34a; /* Color de fondo verde */
+    color: #ffffff; /* Color de letra blanco */
+    padding: 20px; /* Relleno de 20px */
+    text-align: center; /* Alineación centrada del texto */
+}
+
+
+
+.titulo-cancion {
+    text-align: center; 
+    position: relative; 
+    top: 100px; 
+    background-color: #ffffff; 
+    color: #8bc34a; 
+    padding: 10px;
+    font-size: 20pt; 
+    text-transform: uppercase; 
+}
+
+div.cancion {
+    position: relative;
+    border: none; 
+    display: inline-block; 
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.8); 
+    box-shadow: 4px 4px 20px 0px #000000cc; 
+    margin: 20px; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+.imagen-cancion {
+    display: block; 
+    
+    margin: 20px; 
+    border-radius: 5px; 
+}
+
+
+.boton-play-pause {
+    display: inline-block; 
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%); 
+    text-decoration: none; 
+    color: #ffffff; 
+    background-color: #8bc34a; 
+    font-weight: bold; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+.artista {
+    position: absolute;
+    display: inline;
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-weight: bold; 
+}
+
+
+.pie-pagina {
+    text-align: center; 
+    font-weight: bold; 
+    border-top: 2px solid #000; 
+    padding-top: 10px; 
+}
